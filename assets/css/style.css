@@ -1,9 +1,15 @@
+/* START - IMPORTS */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+/* END - IMPORTS */
+
+/* START - GLOBAL STYLES */
 
 *{
   margin: 0;
   padding: 0;
-  border: 0
+  border: 0;
 }
 
 body{
@@ -17,10 +23,24 @@ h2{
   letter-spacing: 4px;
   color: #555555;
 }
+/* END - GLOBAL STYLES */
 
+/* START - HEADER STYLES */
+
+#logo, #menu{
+  height: 80px;
+}
+
+#container{
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,.5);  
+  width: 100%;
+  height: 75px;
+  
+}
 #logo{
   float: left;
   font-size: 280%;
+  margin-left: 30px 
 }
 
 #menu{
@@ -28,7 +48,6 @@ h2{
   list-style: none;
   letter-spacing: 4px;
   text-align: right;
-
 }
 
 #logo, #menu{
@@ -52,3 +71,74 @@ h2{
 .active{
   border: 1px solid #777777;
 }
+
+
+
+/* END - HEADER STYLES */
+
+/* START - HERO STYLES */
+
+#hero-image{
+  height: 600px;
+  width: 100%;
+  background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center;
+
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+#hero-outer{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes hero-zoom{
+  
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.1);
+  }
+}
+
+#cover-text, #cover-text h2{
+  
+  color: #ffffff;
+}
+
+#cover-text{
+
+  font-size: 130%;
+  font: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  width: 300px;
+  height: 200px;
+  
+  padding-top: 40px;
+  padding-left: 10px;
+  
+  background-color: rgba(241, 109, 107, .7);
+  
+
+  bottom: 30px;
+  right: 150px;
+  position: absolute; 
+  box-shadow: 20px 20px 20px 20px rgba(0,0,0,1);  
+
+}
+
+/* END - HERO STYLES */
+
+/* START - MAIN SECTION STYLES */
+
+/* END - MAIN SECTION STYLES */
+
+/* START - FOOTER STYLES */
+
+/* END - FOOTER STYLES */
