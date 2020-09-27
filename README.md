@@ -1,74 +1,15 @@
 # Introduction
 
-- introduction to the project.
+This is a mini-project that I conducted through my fullstack developer course. It is a ficticious website for people who likes to run in the Dublin and Phoenix, Ireland.
 
-# Responsive Mockup
+# Content
 
-- Link - [http://ami.responsivedesign.is](http://ami.responsivedesign.is)
+The content was also provided by the course.
 
-# User Stories
+# Structure
 
-- What users expect.
-- List example questions and answer them in your strategy.
+The website is conposed of three pages: 
 
-# UX - 5 Planes
-
-### Strategy
-
-- Project goals, customer goals, company goals.
-
-### Scope
-
-- Features you will include based on your strategy(can/cannot achieve).
-
-### Structure
-
-- How is your information logically grouped on your site.
-
-### Skeleton
-
-- How information is presented - navigation to features etc.
-
-### Surface
-
-- The look and feel of your site - colours, typography, ease of use.
-
-# Features and Technologies
-
-- List site features and what technologies used.
-
-# Resources
-
-- List of resources used in your project.
-
-# Implementation
-
-- How was implementation done.
-
-# Testing
-
-- Document all testing measures taken.
-
-# Project Barriers and Solutions
-
-- Document any issues and how I overcame.
-
-# Version Control
-
-- Describe your version control.
-
-# Deployment
-
-- Describe steps to deploy your project.
-
-# Credits
-
-- Borrowed code, images and videos.
-
-# Acknowledgements
-
-- Guidance, assistance with code, etc.
-
-Resources
-
-Markdown for readme - [https://commonmark.org/help](https://commonmark.org/help)
+ - One landing page where it displays the visitors a hero image, a club ethos and times.
+ - Gallery page where it shows photos of people who participants.
+ - Signup page where people can submit a form to let Love Running where they prefer to run.
