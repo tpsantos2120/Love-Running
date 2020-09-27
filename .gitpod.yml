@@ -1,5 +1,0 @@
-tasks:
-  - init: Copy files to root directory. It is just a static site so there is no
-      installation required. However, if not opening it locally there will be
-      need for a hosting platform where you can transfer these files
-   
