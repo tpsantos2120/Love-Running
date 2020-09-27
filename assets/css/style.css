@@ -82,7 +82,7 @@ h2{
   height: 600px;
   width: 100%;
   background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/main-image.png") no-repeat center;
-
+  
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
@@ -135,7 +135,7 @@ h2{
 
 /* END - HERO STYLES */
 
-/* START - MAIN SECTION STYLES */
+/* START - CLUB ETHOS MAIN SECTION STYLES */
 
 #club-ethos{
   height: 600px;
@@ -218,8 +218,37 @@ hr{
 
 }
 
-
 /* END - MAIN SECTION STYLES */
+
+/* START - TIMES SECTION STYLES */
+
+#times{
+  background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/dublin-city.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+#times div{
+  color: #fafafa;
+  background-color: rgba(0,0,0,.6);
+  width: 19%;
+  height: 300px;
+  float: left;
+  padding: 30px 0 0 10px;
+  text-align: center;
+  margin: 4px;
+  overflow: hidden;
+}
+
+#times h2{
+  color: #fafafa;
+}
+
+/* END - TIMES SECTION STYLES */
 
 /* START - FOOTER STYLES */
 
