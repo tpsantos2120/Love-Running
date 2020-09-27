@@ -247,7 +247,6 @@ hr{
 #times h2{
   color: #fafafa;
 }
-
 /* END - TIMES SECTION STYLES */
 
 /* START - FOOTER STYLES */
@@ -268,6 +267,16 @@ footer{
   padding: 5%;
   color: #777777;
 }
+/* START - GALLERY STYLES */
 
+#photos{
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+#photos img{
+  width: 100%;
+}
 
-/* END - FOOTER STYLES */
+/* END - GALLERY STYLES */
