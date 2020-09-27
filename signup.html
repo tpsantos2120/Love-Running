@@ -32,17 +32,27 @@
 			</nav>
 		</div>
 	</header>
-	<section id="photos">
-		<img src="http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/athletes.jpg">
-    <img src="http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/girls.jpg">
-    <img src="http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/man.jpg">
-    <img src="http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/runner2.jpg">
-    <img src="http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/athletes.jpg">
-    <img src="http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/runner3.jpg">
-    <img src="http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/running_gang.jpg">
-    <img src="http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/athletes.jpg">
-	</section>
-	<footer>
+   <section class="form-section">
+    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+      <h2>Let's get you signed up! <i class="fas fa-heartbeat"></i></h2>
+      <label for="fname">First Name</label>
+      <input id="fname" name="first_name" type="text" required class="text-input">
+      <label for="lname">Last Name</label>
+      <input id="lname" name="last_name" type="text" required class="text-input">
+      <label for="email">Email Address</label>
+      <input id="email" name="email_address" type="email" required class="text-input">
+      
+      <label for="road">Road</label>
+      <input id="road" value="road" name="running_preference" type="radio" required>
+      <label for="trail">Trail</label>
+      <input id="trail" value="trail" name="running_preference" type="radio" >
+      <label for="both">Both</label>
+      <input id="both"  value="both" name="running_preference" type="radio" >
+      
+      <input type="submit" value="Let's Run!" class="join-button">
+    </form>
+   </section> 
+    <footer>
 		<ul class="social-media">
 			<li>
 				<a href="https://www.facebook.com" target="_blank">
